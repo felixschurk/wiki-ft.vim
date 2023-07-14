@@ -1,3 +1,4 @@
+set wrap
 syntax match wikiBold
       \ /\v%(^|\s|[[:punct:]])\zs\*\*[^*`[:space:]]%([^*`]*[^*`[:space:]])?\*\*\ze%([[:punct:]]|\s|$)/
       \ contains=wikiBoldItalic,wikiConcealBold,@Spell
